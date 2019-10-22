@@ -1,0 +1,7 @@
+version: "2"
+domain: dmall.com
+repo: github.com/xkcp0324/workload-controller
+resources:
+- group: workload
+  version: v1beta1
+  kind: AdvDeployment
