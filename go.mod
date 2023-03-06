@@ -3,7 +3,7 @@ module github.com/xkcp0324/workload-controller
 go 1.12
 
 require (
-	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/emicklei/go-restful v2.10.0+incompatible // indirect
 	github.com/go-logr/logr v0.1.0
 	github.com/go-openapi/spec v0.19.3 // indirect
@@ -19,7 +19,7 @@ require (
 	k8s.io/apimachinery v0.0.0-20190404173353-6a84e37a896d
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 	k8s.io/klog v0.4.0
-	k8s.io/kubernetes v1.14.6
+	k8s.io/kubernetes v1.14.6 // indirect
 	sigs.k8s.io/controller-runtime v0.2.2
 )
 
